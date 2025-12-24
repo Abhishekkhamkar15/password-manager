@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .mycontainer {
+    @apply container px-40 py-16;
+  }
+}
